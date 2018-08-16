@@ -1,0 +1,33 @@
+{
+  "name": "atom-black",
+  "main": "./lib/atom-black",
+  "version": "0.1.0",
+  "description": "Black integration for Atom",
+  "keywords": [
+    "black",
+    "python",
+    "format",
+    "style"
+  ],
+  "repository": "https://github.com/hauntsaninja/atom-black",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "configSchema": {
+    "blackCommand": {
+      "type": "string",
+      "default": "black",
+      "title": "Default command for black",
+      "order": 0
+    },
+    "blackenOnSave": {
+      "type": "boolean",
+      "default": true,
+      "title": "Blacken on save",
+      "order": 1
+    }
+  }
+}

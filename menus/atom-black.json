@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Blacken",
+        "command": "atom-black:blacken"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-black",
+          "submenu": [
+            {
+              "label": "Blacken",
+              "command": "atom-black:blacken"
+            },
+            {
+              "label": "Toggle Blacken on Save",
+              "command": "atom-black:toggle-blacken-on-save"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
