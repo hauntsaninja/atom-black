@@ -4,7 +4,8 @@ Black integration for Atom.
 
 ## Installation
 
-`apm install atom-black`
+* Install [Black](https://github.com/ambv/black/#installation-and-usage)
+* Run `apm install atom-black`
 
 ## Usage
 
