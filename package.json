@@ -1,7 +1,7 @@
 {
   "name": "atom-black",
   "main": "./lib/atom-black",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Black integration for Atom",
   "keywords": [
     "black",
